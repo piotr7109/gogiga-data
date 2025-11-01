@@ -11,7 +11,7 @@ type SourceCityCombined = {
   Region?: string;
 };
 
-export const POLAND_COUNTRIES: SourceCityCombined[] = [
+export const POLAND_CITIES: SourceCityCombined[] = [
   {
     Id: "4",
     Name: "Abramów",
@@ -42034,5 +42034,16 @@ export const POLAND_COUNTRIES: SourceCityCombined[] = [
     Latitude: 51.4309580497406,
     Longitude: 21.7104676693209,
     population: 0,
+  },
+  {
+    Id: "51126",
+    Name: "Kędzierzyn Koźle",
+    Type: "city",
+    Province: "opolskie",
+    District: "kędzierzyńsko-kozielski",
+    Commune: "Gmina Kędzierzyn-Koźle",
+    Latitude: 50.347829,
+    Longitude: 18.275744,
+    population: 50927,
   },
 ];

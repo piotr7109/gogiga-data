@@ -1,4 +1,4 @@
-import { POLAND_COUNTRIES } from "./data";
+import { POLAND_CITIES } from "./data";
 import { City } from "./types";
 
 const normalizeSearchValue = (value: string) => {
@@ -10,7 +10,7 @@ const normalizeSearchValue = (value: string) => {
 };
 
 export const getParsedCities = () => {
-  return POLAND_COUNTRIES.reduce<City[]>(
+  return POLAND_CITIES.reduce<City[]>(
     (
       acc,
       {
