@@ -31,6 +31,7 @@ export const GENRES_DATA: Genre[] = [
       { name: "Pop Rock", _id: "67852936c97f520390306c03" },
       { name: "Post Punk", _id: "67852936c97f520390306c04" },
       { name: "Post Rock", _id: "67852936c97f520390306c05" },
+      { name: "Prog Rock", _id: "69143ab386c960c7cd0f22b8" },
       { name: "Psychedelic", _id: "67852936c97f520390306c06" },
       { name: "Rock n Roll", _id: "67852936c97f520390306c07" },
       { name: "Shoegaze", _id: "67852936c97f520390306c08" },
