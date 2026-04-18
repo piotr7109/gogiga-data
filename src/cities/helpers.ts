@@ -1,5 +1,5 @@
-import { POLAND_CITIES } from "./data";
-import { City } from "./types";
+import { POLAND_CITIES } from "./data.js";
+import { City } from "./types.js";
 
 const normalizeSearchValue = (value: string) => {
   return value
@@ -24,7 +24,7 @@ export const getParsedCities = () => {
         Longitude,
         population,
         Region,
-      }
+      },
     ) => [
       ...acc,
       {
@@ -42,6 +42,6 @@ export const getParsedCities = () => {
         },
       },
     ],
-    []
+    [],
   ).filter(({ population }) => population > 100 || population === 0);
 };

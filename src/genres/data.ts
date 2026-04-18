@@ -1,4 +1,4 @@
-import { Genre } from "./types";
+import { Genre } from "./types.js";
 
 export const GENRES_DATA: Genre[] = [
   {
